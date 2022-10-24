@@ -1,10 +1,7 @@
-import time
-
 import pytest
-from selenium.webdriver import ActionChains, Keys
 
-from pom.home_page import HomePage
-from pom.home_page_locators import HomePageLocators
+from pages.home_page import HomePage
+from pages.home_page_locators import HomePageLocators
 
 
 @pytest.mark.usefixtures('driver')
